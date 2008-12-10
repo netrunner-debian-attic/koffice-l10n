@@ -1,6 +1,7 @@
 koffice-l10n (1.9.98.3-1) UNRELEASED; urgency=low
 
   * First release of translations for koffice 2. This is still beta 4.
+  * Finally, koffice translations packages are named koffice-l10n-*.
   * Complete repackaging, keeping changelog and notice in copyright file for
     legacy.
   * Remove bab and isaac from Uploaders. 
