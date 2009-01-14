@@ -1,3 +1,9 @@
+koffice-l10n (1.9.98.5-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 14 Jan 2009 22:53:10 +0100
+
 koffice-l10n (1.9.98.3-1) experimental; urgency=low
 
   * First release of translations for koffice 2. This is still beta 4.
