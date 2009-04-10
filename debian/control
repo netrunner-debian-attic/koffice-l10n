@@ -9,27 +9,27 @@ Standards-Version: 3.8.0
 Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n
 
-Package: koffice-l10n-ar
-Architecture: all
-Section: kde
-Recommends: kde-l10n-ar
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ar (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Arabic (ar) translations for KOffice
- This package contains the Arabic translations for all applications
- in the KDE Office Suite.
-
-Package: koffice-l10n-bg
-Architecture: all
-Section: kde
-Recommends: kde-l10n-bg
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-bg (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Bulgarian (bg) translations for KOffice
- This package contains the Bulgarian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ar
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-ar
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ar (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Arabic (ar) translations for KOffice
+# This package contains the Arabic translations for all applications
+# in the KDE Office Suite.
+#
+#Package: koffice-l10n-bg
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-bg
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-bg (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Bulgarian (bg) translations for KOffice
+# This package contains the Bulgarian translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-ca
 Architecture: all
@@ -53,16 +53,16 @@ Description: Catalan (ca) translations for KOffice
 # This package contains the Czech translations for all applications
 # in the KDE Office Suite.
 
-Package: koffice-l10n-cy
-Architecture: all
-Section: kde
-Recommends: kde-l10n-cy
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-cy (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Welsh (cy) translations for KOffice
- This package contains the Welsh translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-cy
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-cy
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-cy (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Welsh (cy) translations for KOffice
+# This package contains the Welsh translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-da
 Architecture: all
@@ -108,16 +108,16 @@ Description: British English (en_GB) translations for KOffice
  This package contains the British English (en_GB) translations
  for all applications in the KDE Office Suite.
  
-Package: koffice-l10n-es
-Architecture: all
-Section: kde
-Recommends: kde-l10n-es
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-es (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Spanish (es) translations for KOffice
- This package contains the Spanish translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-es
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-es
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-es (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Spanish (es) translations for KOffice
+# This package contains the Spanish translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-et
 Architecture: all
@@ -130,38 +130,38 @@ Description: Estonian (et) translations for KOffice
  This package contains the Estonian translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-eu
-Architecture: all
-Section: kde
-Recommends: kde-l10n-eu
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-eu (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Basque (eu) translations for KOffice
- This package contains the Basque translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-eu
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-eu
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-eu (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Basque (eu) translations for KOffice
+# This package contains the Basque translations for all applications
+# in the KDE Office Suite.
 
-Package: koffice-l10n-fa
-Architecture: all
-Section: kde
-Recommends: kde-l10n-fa
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-fa (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Farsi (fa) translations for KOffice
- This package contains the Farsi translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-fa
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-fa
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-fa (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Farsi (fa) translations for KOffice
+# This package contains the Farsi translations for all applications
+# in the KDE Office Suite.
 
-Package: koffice-l10n-fi
-Architecture: all
-Section: kde
-Recommends: kde-l10n-fi
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-fi (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Finnish (fi) translations for KOffice
- This package contains the Finnish translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-fi
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-fi
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-fi (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Finnish (fi) translations for KOffice
+# This package contains the Finnish translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-fr
 Architecture: all
@@ -185,16 +185,16 @@ Description: Frisian (fy) translations for KOffice
  This package contains the Frisian translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-ga
-Architecture: all
-Section: kde
-Recommends: kde-l10n-ga
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ga (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Irish Gaelic (ga) translations for KOffice
- This package contains the Irish Gaelic translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ga
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-ga
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ga (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Irish Gaelic (ga) translations for KOffice
+# This package contains the Irish Gaelic translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-gl
 Architecture: all
@@ -218,16 +218,16 @@ Description: Hindi (hi) translations for KOffice
  This package contains the Hindi translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-hu
-Architecture: all
-Section: kde
-Recommends: kde-l10n-hu
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-hu (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Hungarian (hu) translations for KOffice
- This package contains the Hungarian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-hu
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-hu
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-hu (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Hungarian (hu) translations for KOffice
+# This package contains the Hungarian translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-it
 Architecture: all
@@ -284,16 +284,16 @@ Description: Kazakh (kk) translations for KOffice
 # This package contains the Latvian translations for all applications
 # in the KDE Office Suite.
 
-Package: koffice-l10n-ms
-Architecture: all
-Section: kde
-Recommends: kde-l10n-ms
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ms (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Malay (ms) translations for KOffice
- This package contains the Malay translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ms
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-ms
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ms (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Malay (ms) translations for KOffice
+# This package contains the Malay translations for all applications
+# in the KDE Office Suite.
  
 Package: koffice-l10n-nb
 Architecture: all
@@ -317,15 +317,15 @@ Description: Low Saxon (nds) translations for KOffice
  This package contains the Low Saxon translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-ne
-Architecture: all
-Section: kde
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ne (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Nepali (ne) translations for KOffice
- This package contains the Nepali translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ne
+#Architecture: all
+#Section: kde
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ne (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Nepali (ne) translations for KOffice
+# This package contains the Nepali translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-nl
 Architecture: all
@@ -371,38 +371,38 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
  This package contains the Brazilian Portuguese translations for all
  applications in the KDE Office Suite.
  
-Package: koffice-l10n-ru
-Architecture: all
-Section: kde
-Recommends: kde-l10n-ru
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ru (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Russian (ru) translations for KOffice
- This package contains the Russian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ru
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-ru
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ru (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Russian (ru) translations for KOffice
+# This package contains the Russian translations for all applications
+# in the KDE Office Suite.
+
+#Package: koffice-l10n-sk
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-sk
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-sk (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Slovak (sk) translations for KOffice
+# This package contains the Slovak translations for all applications
+# in the KDE Office Suite.
  
-Package: koffice-l10n-sk
-Architecture: all
-Section: kde
-Recommends: kde-l10n-sk
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-sk (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Slovak (sk) translations for KOffice
- This package contains the Slovak translations for all applications
- in the KDE Office Suite.
- 
-Package: koffice-l10n-sl
-Architecture: all
-Section: kde
-Recommends: kde-l10n-sl
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-sl (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Slovenian (sl) translations for KOffice
- This package contains the Slovenian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-sl
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-sl
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-sl (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Slovenian (sl) translations for KOffice
+# This package contains the Slovenian translations for all applications
+# in the KDE Office Suite.
 
 #Package: koffice-l10n-sr
 #Architecture: all
@@ -437,16 +437,16 @@ Description: Swedish (sv) translations for KOffice
  This package contains the Swedish translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-ta
-Architecture: all
-Section: kde
-Recommends: kde-l10n-ta
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-ta (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Tamil (ta) translations for KOffice
- This package contains the Turkish translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-ta
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-ta
+#Suggests: koffice (>= 1.9.98.3)
+#Conflicts: koffice-i18n-ta (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Tamil (ta) translations for KOffice
+# This package contains the Turkish translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-tr
 Architecture: all

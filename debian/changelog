@@ -1,3 +1,10 @@
+koffice-l10n (1.9.99.0-1) experimental; urgency=low
+
+  * New upstream release. Removed languages: ar, bg, cy, es, eu, fa, fi, ga,
+    hu, ms, ne, ru, sk, sl, ta.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 10 Apr 2009 21:34:28 +0200
+
 koffice-l10n (1.9.98.5-1) experimental; urgency=low
 
   * New upstream release.
