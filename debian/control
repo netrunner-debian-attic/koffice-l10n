@@ -5,7 +5,7 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.1.0), cmake
 Build-Depends: debhelper (>= 6)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
 Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n
 
@@ -13,7 +13,7 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-ar
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ar (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Arabic (ar) translations for KOffice
@@ -24,7 +24,7 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-bg
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-bg (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Bulgarian (bg) translations for KOffice
@@ -35,29 +35,29 @@ Package: koffice-l10n-ca
 Architecture: all
 Section: kde
 Recommends: kde-l10n-ca
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-ca (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Catalan (ca) translations for KOffice
  This package contains the Catalan translations for all applications
  in the KDE Office Suite.
 
-#Package: koffice-l10n-cs
-#Architecture: all
-#Section: kde
-#Recommends: kde-l10n-cs
-#Suggests: koffice (>= 1.9.98.3)
-#Conflicts: koffice-i18n-cs (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Czech (cs) translations for KOffice
-# This package contains the Czech translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-cs
+Architecture: all
+Section: kde
+Recommends: kde-l10n-cs
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-cs (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Czech (cs) translations for KOffice
+ This package contains the Czech translations for all applications
+ in the KDE Office Suite.
 
 #Package: koffice-l10n-cy
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-cy
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-cy (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Welsh (cy) translations for KOffice
@@ -68,7 +68,7 @@ Package: koffice-l10n-da
 Architecture: all
 Section: kde
 Recommends: kde-l10n-da
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-da (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Danish (da) translations for KOffice
@@ -79,7 +79,7 @@ Package: koffice-l10n-de
 Architecture: all
 Section: kde
 Recommends: kde-l10n-de
-Suggests: koffice (>= 1.9.98.3), openthesaurus-de-kword
+Suggests: koffice (>= 2.0.0), openthesaurus-de-kword
 Conflicts: koffice-i18n-de (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: German (de) translations for KOffice
@@ -90,7 +90,7 @@ Package: koffice-l10n-el
 Architecture: all
 Section: kde
 Recommends: kde-l10n-el
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-el (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Greek (el) translations for KOffice
@@ -101,29 +101,29 @@ Package: koffice-l10n-engb
 Architecture: all
 Section: kde
 Recommends: kde-l10n-engb
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-engb (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: British English (en_GB) translations for KOffice
  This package contains the British English (en_GB) translations
  for all applications in the KDE Office Suite.
  
-#Package: koffice-l10n-es
-#Architecture: all
-#Section: kde
-#Recommends: kde-l10n-es
-#Suggests: koffice (>= 1.9.98.3)
-#Conflicts: koffice-i18n-es (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Spanish (es) translations for KOffice
-# This package contains the Spanish translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-es
+Architecture: all
+Section: kde
+Recommends: kde-l10n-es
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-es (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Spanish (es) translations for KOffice
+ This package contains the Spanish translations for all applications
+ in the KDE Office Suite.
 
 Package: koffice-l10n-et
 Architecture: all
 Section: kde
 Recommends: kde-l10n-et
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-et (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Estonian (et) translations for KOffice
@@ -134,7 +134,7 @@ Description: Estonian (et) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-eu
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-eu (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Basque (eu) translations for KOffice
@@ -145,7 +145,7 @@ Description: Estonian (et) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-fa
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-fa (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Farsi (fa) translations for KOffice
@@ -156,7 +156,7 @@ Description: Estonian (et) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-fi
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-fi (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Finnish (fi) translations for KOffice
@@ -167,7 +167,7 @@ Package: koffice-l10n-fr
 Architecture: all
 Section: kde
 Recommends: kde-l10n-fr
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-fr (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: French (fr) translations for KOffice
@@ -178,7 +178,7 @@ Package: koffice-l10n-fy
 Architecture: all
 Section: kde
 Recommends: kde-l10n-fy
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-fy (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Frisian (fy) translations for KOffice
@@ -189,7 +189,7 @@ Description: Frisian (fy) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-ga
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ga (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Irish Gaelic (ga) translations for KOffice
@@ -200,7 +200,7 @@ Package: koffice-l10n-gl
 Architecture: all
 Section: kde
 Recommends: kde-l10n-gl
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-gl (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Galician (gl) translations for KOffice
@@ -211,7 +211,7 @@ Package: koffice-l10n-hi
 Architecture: all
 Section: kde
 Recommends: kde-l10n-hi
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-hi (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Hindi (hi) translations for KOffice
@@ -222,7 +222,7 @@ Description: Hindi (hi) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-hu
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-hu (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Hungarian (hu) translations for KOffice
@@ -233,7 +233,7 @@ Package: koffice-l10n-it
 Architecture: all
 Section: kde
 Recommends: kde-l10n-it
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-it (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Italian (it) translations for KOffice
@@ -244,7 +244,7 @@ Package: koffice-l10n-ja
 Architecture: all
 Section: kde
 Recommends: kde-l10n-ja
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-ja (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Japanese (ja) translations for KOffice
@@ -255,7 +255,7 @@ Package: koffice-l10n-kk
 Architecture: all
 Section: kde
 Recommends: kde-l10n-kk
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-kk (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Kazakh (kk) translations for KOffice
@@ -266,7 +266,7 @@ Description: Kazakh (kk) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-km
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-km (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Khmer (km) translations for KOffice
@@ -277,7 +277,7 @@ Description: Kazakh (kk) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-lv
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-lv (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Latvian (lv) translations for KOffice
@@ -288,29 +288,29 @@ Description: Kazakh (kk) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-ms
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ms (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Malay (ms) translations for KOffice
 # This package contains the Malay translations for all applications
 # in the KDE Office Suite.
  
-Package: koffice-l10n-nb
-Architecture: all
-Section: kde
-Recommends: kde-l10n-nb
-Suggests: koffice (>= 1.9.98.3)
-Conflicts: koffice-i18n-nb (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Norwegian Bookmal (nb) translations for KOffice
- This package contains the Norwegian Bookmal translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-nb
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-nb
+#Suggests: koffice (>= 2.0.0)
+#Conflicts: koffice-i18n-nb (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Norwegian Bookmal (nb) translations for KOffice
+# This package contains the Norwegian Bookmal translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-nds
 Architecture: all
 Section: kde
 Recommends: kde-l10n-nds
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-nds (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Low Saxon (nds) translations for KOffice
@@ -320,7 +320,7 @@ Description: Low Saxon (nds) translations for KOffice
 #Package: koffice-l10n-ne
 #Architecture: all
 #Section: kde
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ne (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Nepali (ne) translations for KOffice
@@ -331,7 +331,7 @@ Package: koffice-l10n-nl
 Architecture: all
 Section: kde
 Recommends: kde-l10n-nl
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-nl (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Dutch (nl) translations for KOffice
@@ -342,7 +342,7 @@ Package: koffice-l10n-pl
 Architecture: all
 Section: kde
 Recommends: kde-l10n-pl
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-pl (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Polish (pl) translations for KOffice
@@ -353,7 +353,7 @@ Package: koffice-l10n-pt
 Architecture: all
 Section: kde
 Recommends: kde-l10n-pt
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-pt (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Portuguese (pt) translations for KOffice
@@ -364,7 +364,7 @@ Package: koffice-l10n-ptbr
 Architecture: all
 Section: kde
 Recommends: kde-l10n-ptbr
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-ptbr (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Brazilian Portuguese (pt_BR) translations for KOffice
@@ -375,7 +375,7 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-ru
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ru (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Russian (ru) translations for KOffice
@@ -386,7 +386,7 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-sk
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-sk (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Slovak (sk) translations for KOffice
@@ -397,7 +397,7 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-sl
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-sl (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Slovenian (sl) translations for KOffice
@@ -408,7 +408,7 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-sr
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-sr (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Serbian (sr) translations for KOffice
@@ -419,7 +419,7 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-srlatin
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-srlatin (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Latin Serbian (sr@Latn) translations for KOffice
@@ -430,7 +430,7 @@ Package: koffice-l10n-sv
 Architecture: all
 Section: kde
 Recommends: kde-l10n-sv
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-sv (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Swedish (sv) translations for KOffice
@@ -441,7 +441,7 @@ Description: Swedish (sv) translations for KOffice
 #Architecture: all
 #Section: kde
 #Recommends: kde-l10n-ta
-#Suggests: koffice (>= 1.9.98.3)
+#Suggests: koffice (>= 2.0.0)
 #Conflicts: koffice-i18n-ta (<< 1.9.98.3)
 #Provides: koffice-l10n
 #Description: Tamil (ta) translations for KOffice
@@ -452,7 +452,7 @@ Package: koffice-l10n-tr
 Architecture: all
 Section: kde
 Recommends: kde-l10n-tr
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-tr (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Turkish (tr) translations for KOffice
@@ -463,18 +463,29 @@ Package: koffice-l10n-uk
 Architecture: all
 Section: kde
 Recommends: kde-l10n-uk
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-i18n-uk (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Ukrainian (uk) translations for KOffice
  This package contains the Ukrainian translations for all applications
  in the KDE Office Suite.
 
+Package: koffice-l10n-wa
+Architecture: all
+Section: kde
+Recommends: kde-l10n-wa
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-wa (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Wallonian (wa) translations for KOffice
+ This package contains the Wallonian translations for all applications
+ in the KDE Office Suite.
+
 Package: koffice-l10n-zhcn
 Architecture: all
 Section: kde
 Recommends: kde-l10n-zhcn
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-l10n-zhcngb2312 (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Chinese Simplified (zh_CN) translations for KOffice
@@ -485,7 +496,7 @@ Package: koffice-l10n-zhtw
 Architecture: all
 Section: kde
 Recommends: kde-l10n-zhtw
-Suggests: koffice (>= 1.9.98.3)
+Suggests: koffice (>= 2.0.0)
 Conflicts: koffice-l10n-zhtw (<< 1.9.98.3)
 Provides: koffice-l10n
 Description: Chinese Traditional (zh_TW) translations for KOffice
