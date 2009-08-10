@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.1.0), cmake
+Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.3.0), cmake
 Build-Depends: debhelper (>= 6)
-Standards-Version: 3.8.1
+Standards-Version: 3.8.2
 Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n
 
@@ -295,16 +295,16 @@ Description: Kazakh (kk) translations for KOffice
 # This package contains the Malay translations for all applications
 # in the KDE Office Suite.
  
-#Package: koffice-l10n-nb
-#Architecture: all
-#Section: kde
-#Recommends: kde-l10n-nb
-#Suggests: koffice (>= 2.0.0)
-#Conflicts: koffice-i18n-nb (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Norwegian Bookmal (nb) translations for KOffice
-# This package contains the Norwegian Bookmal translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-nb
+Architecture: all
+Section: kde
+Recommends: kde-l10n-nb
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-nb (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Norwegian Bookmal (nb) translations for KOffice
+ This package contains the Norwegian Bookmal translations for all applications
+ in the KDE Office Suite.
 
 Package: koffice-l10n-nds
 Architecture: all

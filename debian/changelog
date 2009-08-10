@@ -1,3 +1,14 @@
+koffice-l10n (2.0.2-1) experimental; urgency=low
+
+  * New upstream release:
+    - Add languages: nb.
+  * Bump build depends to KDE 4.3.0.
+  * Add dh_link in debian/rules.
+  * Minor improvements in debian/copyright.
+  * Update to Standards-Version: 3.8.2, no changes required.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 10 Aug 2009 13:53:54 +0200
+
 koffice-l10n (2.0.0-1) experimental; urgency=low
 
   * New upstream release:
