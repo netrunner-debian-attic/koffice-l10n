@@ -1,3 +1,11 @@
+koffice-l10n (2.0.83-1) experimental; urgency=low
+
+  * New upstream release:
+    - Packages for koffice 2.0.83, third beta of koffice.
+    - Removed languages: cs, hi.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 12 Oct 2009 01:00:18 +0200
+
 koffice-l10n (2.0.2-1) experimental; urgency=low
 
   * New upstream release:

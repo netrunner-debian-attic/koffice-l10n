@@ -42,16 +42,16 @@ Description: Catalan (ca) translations for KOffice
  This package contains the Catalan translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-cs
-Architecture: all
-Section: kde
-Recommends: kde-l10n-cs
-Suggests: koffice (>= 2.0.0)
-Conflicts: koffice-i18n-cs (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Czech (cs) translations for KOffice
- This package contains the Czech translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-cs
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-cs
+#Suggests: koffice (>= 2.0.0)
+#Conflicts: koffice-i18n-cs (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Czech (cs) translations for KOffice
+# This package contains the Czech translations for all applications
+# in the KDE Office Suite.
 
 #Package: koffice-l10n-cy
 #Architecture: all
@@ -207,16 +207,16 @@ Description: Galician (gl) translations for KOffice
  This package contains the Galician translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-hi
-Architecture: all
-Section: kde
-Recommends: kde-l10n-hi
-Suggests: koffice (>= 2.0.0)
-Conflicts: koffice-i18n-hi (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Hindi (hi) translations for KOffice
- This package contains the Hindi translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-hi
+#Architecture: all
+#Section: kde
+#Recommends: kde-l10n-hi
+#Suggests: koffice (>= 2.0.0)
+#Conflicts: koffice-i18n-hi (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Hindi (hi) translations for KOffice
+# This package contains the Hindi translations for all applications
+# in the KDE Office Suite.
 
 #Package: koffice-l10n-hu
 #Architecture: all
