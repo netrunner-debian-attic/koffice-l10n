@@ -1,3 +1,11 @@
+koffice-l10n (2.0.91-1) experimental; urgency=low
+
+  * New upstream release.
+  * Remove Section fields for binaries packages in control file, they inherit
+    it from the source package field.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 26 Oct 2009 06:44:25 +0100
+
 koffice-l10n (2.0.83-1) experimental; urgency=low
 
   * New upstream release:
