@@ -1,3 +1,9 @@
+koffice-l10n (2.1.0-2) UNRELEASED; urgency=low
+
+  * Fix Vcs-Browser URL.
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 23 Dec 2009 01:16:04 +0200
+
 koffice-l10n (2.1.0-1) experimental; urgency=low
 
   * New upstream release.
