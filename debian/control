@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.3.0), cmake
+Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.4.0), cmake
 Build-Depends: debhelper (>= 6)
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n/#_trunk_packages_koffice-l10n_
 
@@ -38,6 +38,16 @@ Provides: koffice-l10n
 Description: Catalan (ca) translations for KOffice
  This package contains the Catalan translations for all applications
  in the KDE Office Suite.
+
+Package: koffice-l10n-cavalencia
+Architecture: all
+Recommends: kde-l10n-cavalencia
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-cavalencia (<< 1.9.98.3)
+Provides: koffice-l10n
+Description:  Southern Catalan (Valencian) (ca@valencia) translations for KOffice
+ This package contains the Southern Catalan (Valencian) translations for all 
+ applications in the KDE Office Suite.
 
 #Package: koffice-l10n-cs
 #Architecture: all
@@ -159,15 +169,15 @@ Description: French (fr) translations for KOffice
  This package contains the French translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-fy
-Architecture: all
-Recommends: kde-l10n-fy
-Suggests: koffice (>= 2.0.0)
-Conflicts: koffice-i18n-fy (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Frisian (fy) translations for KOffice
- This package contains the Frisian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-fy
+#Architecture: all
+#Recommends: kde-l10n-fy
+#Suggests: koffice (>= 2.0.0)
+#Conflicts: koffice-i18n-fy (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Frisian (fy) translations for KOffice
+# This package contains the Frisian translations for all applications
+# in the KDE Office Suite.
 
 #Package: koffice-l10n-ga
 #Architecture: all
@@ -428,15 +438,15 @@ Description: Ukrainian (uk) translations for KOffice
  This package contains the Ukrainian translations for all applications
  in the KDE Office Suite.
 
-Package: koffice-l10n-wa
-Architecture: all
-Recommends: kde-l10n-wa
-Suggests: koffice (>= 2.0.0)
-Conflicts: koffice-i18n-wa (<< 1.9.98.3)
-Provides: koffice-l10n
-Description: Wallonian (wa) translations for KOffice
- This package contains the Wallonian translations for all applications
- in the KDE Office Suite.
+#Package: koffice-l10n-wa
+#Architecture: all
+#Recommends: kde-l10n-wa
+#Suggests: koffice (>= 2.0.0)
+#Conflicts: koffice-i18n-wa (<< 1.9.98.3)
+#Provides: koffice-l10n
+#Description: Wallonian (wa) translations for KOffice
+# This package contains the Wallonian translations for all applications
+# in the KDE Office Suite.
 
 Package: koffice-l10n-zhcn
 Architecture: all
