@@ -1,11 +1,11 @@
-koffice-l10n (2.2.0-1~pre1) experimental; urgency=low
+koffice-l10n (2.2.1-1) experimental; urgency=low
 
   * New upstream release:
-    - Add languages: ca@valencia.
-    - Remove languages: fy, wa.
+    - Add languages: ca@valencia, ru.
+    - Remove languages: fy.
   * Update to Standards-Version: 3.8.4, no changes required.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 May 2010 14:24:25 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 12 Jul 2010 12:26:52 +0200
 
 koffice-l10n (2.1.1-1) experimental; urgency=low
 

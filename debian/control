@@ -348,15 +348,15 @@ Description: Brazilian Portuguese (pt_BR) translations for KOffice
  This package contains the Brazilian Portuguese translations for all
  applications in the KDE Office Suite.
  
-#Package: koffice-l10n-ru
-#Architecture: all
-#Recommends: kde-l10n-ru
-#Suggests: koffice (>= 2.0.0)
-#Conflicts: koffice-i18n-ru (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Russian (ru) translations for KOffice
-# This package contains the Russian translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-ru
+Architecture: all
+Recommends: kde-l10n-ru
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-ru (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Russian (ru) translations for KOffice
+ This package contains the Russian translations for all applications
+ in the KDE Office Suite.
 
 #Package: koffice-l10n-sk
 #Architecture: all
@@ -438,15 +438,15 @@ Description: Ukrainian (uk) translations for KOffice
  This package contains the Ukrainian translations for all applications
  in the KDE Office Suite.
 
-#Package: koffice-l10n-wa
-#Architecture: all
-#Recommends: kde-l10n-wa
-#Suggests: koffice (>= 2.0.0)
-#Conflicts: koffice-i18n-wa (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Wallonian (wa) translations for KOffice
-# This package contains the Wallonian translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-wa
+Architecture: all
+Recommends: kde-l10n-wa
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-wa (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Wallonian (wa) translations for KOffice
+ This package contains the Wallonian translations for all applications
+ in the KDE Office Suite.
 
 Package: koffice-l10n-zhcn
 Architecture: all
