@@ -1,3 +1,10 @@
+koffice-l10n (2.2.1-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Update to Standards-Version: 3.9.0, no changes required.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 12 Jul 2010 16:23:10 +0200
+
 koffice-l10n (2.2.1-1) experimental; urgency=low
 
   * New upstream release:
