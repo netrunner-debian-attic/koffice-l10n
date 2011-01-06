@@ -1,4 +1,4 @@
-koffice-l10n (2.3.0-1) unstable; urgency=low
+koffice-l10n (2.3.0-1) experimental; urgency=low
 
   * New upstream release:
     - Add language: hu.
