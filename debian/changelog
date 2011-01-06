@@ -2,6 +2,7 @@ koffice-l10n (2.3.0-1) unstable; urgency=low
 
   * New upstream release:
     - Add language: hu.
+    - Remove languages: pl, wa.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Jan 2011 15:32:15 +0100
 
