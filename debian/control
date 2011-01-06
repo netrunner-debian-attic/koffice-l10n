@@ -6,8 +6,8 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>
 Build-Depends-Indep: bzip2, kdelibs5-dev (>= 4.4.0), cmake
 Build-Depends: debhelper (>= 6)
 Standards-Version: 3.9.0
-Vcs-Svn: svn://svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/koffice-l10n/#_trunk_packages_koffice-l10n_
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/koffice-l10n.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/koffice-l10n.git
 
 #Package: koffice-l10n-ar
 #Architecture: all
