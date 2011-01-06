@@ -1,3 +1,10 @@
+koffice-l10n (2.3.0-1) unstable; urgency=low
+
+  * New upstream release:
+    - Add language: hu.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Jan 2011 15:32:15 +0100
+
 koffice-l10n (2.2.1-2) unstable; urgency=low
 
   * Upload to unstable.

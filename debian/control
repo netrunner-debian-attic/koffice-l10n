@@ -209,15 +209,15 @@ Description: Galician (gl) translations for KOffice
 # This package contains the Hindi translations for all applications
 # in the KDE Office Suite.
 
-#Package: koffice-l10n-hu
-#Architecture: all
-#Recommends: kde-l10n-hu
-#Suggests: koffice (>= 2.0.0)
-#Conflicts: koffice-i18n-hu (<< 1.9.98.3)
-#Provides: koffice-l10n
-#Description: Hungarian (hu) translations for KOffice
-# This package contains the Hungarian translations for all applications
-# in the KDE Office Suite.
+Package: koffice-l10n-hu
+Architecture: all
+Recommends: kde-l10n-hu
+Suggests: koffice (>= 2.0.0)
+Conflicts: koffice-i18n-hu (<< 1.9.98.3)
+Provides: koffice-l10n
+Description: Hungarian (hu) translations for KOffice
+ This package contains the Hungarian translations for all applications
+ in the KDE Office Suite.
 
 Package: koffice-l10n-it
 Architecture: all
