@@ -1,3 +1,10 @@
+koffice-l10n (2.3.1-1) experimental; urgency=low
+
+  * New upstream release:
+    - Re-add languages: pl, wa.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Jan 2011 18:39:12 +0100
+
 koffice-l10n (2.3.0-1) experimental; urgency=low
 
   * New upstream release:
